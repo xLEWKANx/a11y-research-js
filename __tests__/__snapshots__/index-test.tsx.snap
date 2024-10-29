@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    collapsable={false}
+    forwardedRef={[Function]}
+    jestAnimatedStyle={
+      {
+        "value": {},
+      }
+    }
+    scrollEventThrottle={16}
+  >
+    <View>
+      <View
+        collapsable={false}
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "translateY": 0,
+                },
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+          }
+        }
+        style={
+          {
+            "backgroundColor": "#A1CEDC",
+            "height": 250,
+            "overflow": "hidden",
+            "transform": [
+              {
+                "translateY": 0,
+              },
+              {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            {
+              "bottom": 0,
+              "height": 178,
+              "left": 0,
+              "position": "absolute",
+              "width": 290,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#fff",
+            },
+            {
+              "flex": 1,
+              "gap": 16,
+              "overflow": "hidden",
+              "padding": 32,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#fff",
+              },
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                undefined,
+                {
+                  "fontSize": 32,
+                  "fontWeight": "bold",
+                  "lineHeight": 32,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            Welcome!
+          </Text>
+          <View
+            collapsable={false}
+            jestAnimatedStyle={
+              {
+                "value": {
+                  "transform": [
+                    {
+                      "rotate": "0deg",
+                    },
+                  ],
+                },
+              }
+            }
+            style={
+              {
+                "transform": [
+                  {
+                    "rotate": "0deg",
+                  },
+                ],
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  {
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 28,
+                    "lineHeight": 32,
+                    "marginTop": -6,
+                  },
+                ]
+              }
+            >
+              👋
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#fff",
+              },
+              {
+                "gap": 8,
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                undefined,
+                undefined,
+                undefined,
+                {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            Step 1: Try it
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            Edit 
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              app/(tabs)/index.tsx
+            </Text>
+             to see changes. Press
+             
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              cmd + d
+            </Text>
+             
+            to open developer tools.
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#fff",
+              },
+              {
+                "gap": 8,
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                undefined,
+                undefined,
+                undefined,
+                {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            Step 2: Explore
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            Tap the Explore tab to learn more about what's included in this starter app.
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#fff",
+              },
+              {
+                "gap": 8,
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                undefined,
+                undefined,
+                undefined,
+                {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            Step 3: Get a fresh start
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "#11181C",
+                },
+                {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            When you're ready, run
+             
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              npm run reset-project
+            </Text>
+             to get a fresh
+             
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              app
+            </Text>
+             directory. This will move the current
+             
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              app
+            </Text>
+             to
+             
+            <Text
+              style={
+                [
+                  {
+                    "color": "#11181C",
+                  },
+                  undefined,
+                  undefined,
+                  {
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              app-example
+            </Text>
+            .
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
