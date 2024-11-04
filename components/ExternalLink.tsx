@@ -11,8 +11,9 @@ export function ExternalLink({ href, ...rest }: Props) {
       target="_blank"
       {...rest}
       href={href}
+      accessibilityRole="link"
       onPress={async (event) => {
-        if (Platform.OS !== 'web') {
+        if (Platform.OS !== "web") {
           // Prevent the default behavior of linking to the default browser on native.
           event.preventDefault();
           // Open the link in an in-app browser.

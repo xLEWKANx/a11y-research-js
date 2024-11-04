@@ -15,12 +15,18 @@ export function Collapsible({ children, title }: PropsWithChildren & { title: st
       <TouchableOpacity
         style={styles.heading}
         onPress={() => setIsOpen((value) => !value)}
-        activeOpacity={0.8}>
-        <Ionicons
-          name={isOpen ? 'chevron-down' : 'chevron-forward-outline'}
+        activeOpacity={0.8}
+        accessibilityRole="button"
+        accessibilityLabel="collapsible"
+      >
+        {/* <Ionicons
+          name={isOpen ? "chevron-down" : "chevron-forward-outline"}
           size={18}
-          color={theme === 'light' ? Colors.light.icon : Colors.dark.icon}
-        />
+          color={theme === "light" ? Colors.light.icon : Colors.dark.icon}
+          accessibilityElementsHidden={true}
+          accessible={false}
+          accessibilityRole="image"
+        /> */}
         <ThemedText type="defaultSemiBold">{title}</ThemedText>
       </TouchableOpacity>
       {isOpen && <ThemedView style={styles.content}>{children}</ThemedView>}
